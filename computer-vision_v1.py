@@ -7,7 +7,7 @@ import pathlib
 subscription_key = "subscription_key"
 endpoint = "endpoint-url"
 
-local_image = 'F:/Python/Kuvat/logos.jpg'
+local_image = 'file path name here.jpg'
 filename = os.path.basename(local_image)
 csv_file = "microsoft-results.csv"
 file = pathlib.Path(csv_file)
